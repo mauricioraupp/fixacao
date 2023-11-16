@@ -1,22 +1,22 @@
 function listarDados(request, response) {
-    response.send('Retorno de lista de informação do Banco de dados');
+    response.send('listar produtos');
 }
 
-function gravarDados(request, response) {
-    response.send('Método utilizado para salvar informações!');
+function cadastrarDados(request, response) {
+    response.send('cadastrar produto');
 }
 
-function atualizarDados(request, response) {
-    response.send('Método utilizado para editar informações!');
+function editarDados(request, response) {
+    response.send('editar produto');
 }
 
 function deletarDados(request, response) {
-    response.send('Método utilizado para deletar informações!');
+    response.send('deletar produto');
 }
 
 module.exports = {
     listarDados,
-    gravarDados, 
-    atualizarDados, 
+    cadastrarDados, 
+    editarDados, 
     deletarDados
 }
